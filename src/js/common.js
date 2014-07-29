@@ -132,7 +132,7 @@
     render: function () {
       var _this = this;
       var variants = this.props.variants.map(function (variant, i) {
-        return <Variant title={variant.title} sizes={variant.sizes} key={i} productId={_this.props.key} parentTitle={_this.props.title} sizeCallback={_this.props.sizeCallback} />
+        return <Variant title={variant.title} sizes={variant.sizes} key={i} productId={_this.props.key} parentTitle={_this.props.title} sizeCallback={_this.props.sizeCallback} img={variant.picture} />
       });
       var overallItems = this.props.variants[0].sizes.map(function (size, i) {
         return <ProductOverallItem title={size.title} key={i} variants={_this.props.variants} productId={_this.props.key} />
@@ -186,7 +186,7 @@
         <div className="variant g-clf">
           <div className="variant__info">
             <div className="variant__title">{this.props.title}</div>
-            <img src="assets/img/150x150.gif" /> 
+            <img src={this.props.img || 'assets/img/150x150.gif'} /> 
           </div>
           <div className="variant__sizes g-clf">
             {sizes}
