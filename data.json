@@ -1,0 +1,777 @@
+[
+    {
+        "title": "Бязь «Василиса»",
+        "variants": [
+            {
+                "title": "Ландыши",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Морской бриз",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Летучий голландец",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Вилли Вонка",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Воздушная радость",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Бязь «Добрые традиции»",
+        "variants": [
+            {
+                "title": "Ландыши",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Морской бриз",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Летучий голландец",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Вилли Вонка",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Воздушная радость",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Поплин «Love&Live»",
+        "variants": [
+            {
+                "title": "Ландыши",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Морской бриз",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Летучий голландец",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Вилли Вонка",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Воздушная радость",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Сатин «Коттон»",
+        "variants": [
+            {
+                "title": "Ландыши",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Морской бриз",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Летучий голландец",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Вилли Вонка",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Воздушная радость",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Перкаль «КартБланш»",
+        "variants": [
+            {
+                "title": "Ландыши",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Морской бриз",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Летучий голландец",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Вилли Вонка",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            },
+            {
+                "title": "Воздушная радость",
+                "sizes": [
+                    {
+                        "title": "1.5",
+                        "value": 640,
+                        "active": true
+                    },
+                    {
+                        "title": "2.0",
+                        "value": 720,
+                        "active": true
+                    },
+                    {
+                        "title": "2сп. с евро",
+                        "value": 890,
+                        "active": true
+                    },
+                    {
+                        "title": "Евро",
+                        "value": 1030,
+                        "active": false
+                    },
+                    {
+                        "title": "Семейный",
+                        "value": 1370,
+                        "active": true
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -261,18 +261,107 @@ body
 {
     position: relative;
 
+    width: 1200px;
     min-height: 100%;
+    margin: 0 auto;
 }
 /* Шапка */
 .header
 {
     font-size: 3em;
-    font-weight: bold;
 
-    margin-bottom: 30px;
+    height: 90px;
+    padding: 10px 0 0;
+
+    text-align: center;
+
+    background: #999;
 }
 /* Основной контент */
+.main
+{
+    margin: 20px 0 0;
+}
 /* Боковое меню */
+.sidebar
+{
+    float: left;
+
+    width: 260px;
+    min-height: 1px;
+}
+.sidebar__list
+{
+    font-size: 1.2857142857142858em;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+.sidebar__item
+{
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+.sidebar__all
+{
+    font-size: 1.4285714285714286em;
+    font-weight: 700;
+
+    padding: 10px 0;
+
+    color: #333;
+}
+/* Контент */
+.content
+{
+    float: left;
+
+    width: 940px;
+    min-height: 1px;
+}
+/* Блок продукта */
+.product
+{
+    margin-bottom: 50px;
+
+    background: #ddd;
+}
+.product__stat
+{
+    padding: 10px;
+}
+.product__title
+{
+    font-size: 1.5em;
+
+    color: #333;
+}
+/* Одна из рацветок продукта */
+.variant
+{
+    margin-bottom: 5px;
+    padding: 20px;
+
+    background: #808080;
+}
+.variant__title
+{
+    font-size: 1.3em;
+    font-weight: 700;
+
+    color: #fff;
+}
+/* Размер */
+.size
+{
+    float: left;
+}
+.size_state_inactive
+{
+    opacity: .3;
+}
 /* Подвал */
 /* Форма */
 .form
@@ -349,126 +438,6 @@ body
 {
     display: block;
 }
-/* Сетка */
-.grid
-{
-    display: block;
-}
-/* Строка сетки */
-.row
-{
-    margin-bottom: 15px;
-}
-/* Колонка сетки */
-[class*='column_xs-']
-{
-    float: left;
-}
-.column
-{
-    position: relative;
-
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.column_xs-1
-{
-    width: 8.333333333333334%;
-}
-.column_xs-2
-{
-    width: 16.666666666666668%;
-}
-.column_xs-3
-{
-    width: 25%;
-}
-.column_xs-4
-{
-    width: 33.333333333333336%;
-}
-.column_xs-5
-{
-    width: 41.66666666666667%;
-}
-.column_xs-6
-{
-    width: 50%;
-}
-.column_xs-7
-{
-    width: 58.333333333333336%;
-}
-.column_xs-8
-{
-    width: 66.66666666666667%;
-}
-.column_xs-9
-{
-    width: 75%;
-}
-.column_xs-10
-{
-    width: 83.33333333333334%;
-}
-.column_xs-11
-{
-    width: 91.66666666666667%;
-}
-.column_xs-12
-{
-    width: 100%;
-}
-.column__offset_xs-1
-{
-    margin-left: 8.333333333333334%;
-}
-.column__offset_xs-2
-{
-    margin-left: 16.666666666666668%;
-}
-.column__offset_xs-3
-{
-    margin-left: 25%;
-}
-.column__offset_xs-4
-{
-    margin-left: 33.333333333333336%;
-}
-.column__offset_xs-5
-{
-    margin-left: 41.66666666666667%;
-}
-.column__offset_xs-6
-{
-    margin-left: 50%;
-}
-.column__offset_xs-7
-{
-    margin-left: 58.333333333333336%;
-}
-.column__offset_xs-8
-{
-    margin-left: 66.66666666666667%;
-}
-.column__offset_xs-9
-{
-    margin-left: 75%;
-}
-.column__offset_xs-10
-{
-    margin-left: 83.33333333333334%;
-}
-.column__offset_xs-11
-{
-    margin-left: 91.66666666666667%;
-}
-.column__offset_xs-12
-{
-    margin-left: 100%;
-}
-/* Всплывающие окна */
 /* Responsive */
 @media (min-width: 768px)
 {
