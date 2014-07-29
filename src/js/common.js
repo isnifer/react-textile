@@ -1,5 +1,5 @@
 /** @jsx React.DOM */
-;(function (window, React, $, undefined) {
+;(function (window, React, $, Router, undefined) {
 
   var mountPoint = document.querySelector('.main'),
       url = 'data.json';
@@ -49,6 +49,17 @@
     },
     componentDidMount: function () {
       this.loadData();
+
+      // Router
+      var routes = {
+        '/product/:id': function (id) {
+          $('.product_state_visible').removeClass('product_state_visible');
+          $('.product_' + id).addClass('product_state_visible');
+        }
+      };
+
+      var router = Router(routes);
+      router.init(); 
     },
     render: function () {
       return (
@@ -127,7 +138,7 @@
         return <ProductOverallItem title={size.title} key={i} variants={_this.props.variants} productId={_this.props.key} />
       });
       return (
-        <div className={this.props.key === 0 ? 'product product_state_visible' : 'product'}>
+        <div className={this.props.key === 0 ? 'product product_' + this.props.key + ' product_state_visible' : 'product product_' + this.props.key}>
           <div className="product__stat g-clf">
             <div className="product__title">{this.props.title}</div>
             <div className="product__overall">
@@ -271,4 +282,4 @@
 
   React.renderComponent(<Main url={url} />, mountPoint);
 
-}(window, window.React, window.jQuery));
+}(window, window.React, window.jQuery, window.Router));
