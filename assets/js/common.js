@@ -107,7 +107,7 @@
     render: function () {
       var _this = this;
       var products = this.props.data.map(function (product, i) {
-        return Product({sizeCallback: _this.props.sizeCallback, key: i, title: product.title, variants: product.variants})
+        return Product({sizeCallback: _this.props.sizeCallback, key: i, title: product.title, variants: product.variants, value: product.value})
       });
       return (
         React.DOM.div({className: "content"}, 
@@ -127,12 +127,15 @@
         return ProductOverallItem({title: size.title, key: i, variants: _this.props.variants, productId: _this.props.key})
       });
       return (
-        React.DOM.div({className: "product"}, 
+        React.DOM.div({className: this.props.key === 0 ? 'product product_state_visible' : 'product'}, 
           React.DOM.div({className: "product__stat g-clf"}, 
             React.DOM.div({className: "product__title"}, this.props.title), 
             React.DOM.div({className: "product__overall"}, 
               React.DOM.div({className: "product__overall-title"}, "Общее количество:"), 
               overallItems
+            ), 
+            React.DOM.div({className: "product__overall-value"}, 
+              "= ", this.props.value, " руб."
             )
           ), 
           React.DOM.div({className: "product__variants"}, 
@@ -169,10 +172,18 @@
         return VariantSize({title: size.title, price: size.price, key: i, variantId: _this.props.key, productId: _this.props.productId, active: size.active, parentTitle: _this.props.parentTitle, sizeCallback: _this.props.sizeCallback})
       });
       return (
-        React.DOM.div({className: "variant"}, 
-          React.DOM.div({className: "variant__title"}, this.props.title), 
+        React.DOM.div({className: "variant g-clf"}, 
+          React.DOM.div({className: "variant__info"}, 
+            React.DOM.div({className: "variant__title"}, this.props.title), 
+            React.DOM.img({src: "assets/img/150x150.gif"})
+          ), 
           React.DOM.div({className: "variant__sizes g-clf"}, 
             sizes
+          ), 
+          React.DOM.div({className: "variant__overall"}, 
+            "= ", this.props.sizes.reduce(function (prev, next) {
+                return prev + next.value;
+              }, 0), " руб."
           )
         )
       );
