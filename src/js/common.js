@@ -24,23 +24,28 @@
         }
       });
     },
-    sizeCallback: function (size, count, value) {
-      var sizeTitle = size.props.title;
-      var parentTitle = size.props.parentTitle;
 
-      var tempData = this.state.data;
+    /*
+      options.size - конкретный комплект расцветки
+      options.count - diff количества 
+      options.value - diff стоимости
+      options.productId - id продукта
+      options.variantId - id варианта
+      options.key - id варианта
+     */
+    sizeCallback: function (options) {
+      var currentData = this.state.data,
+          product = currentData[options.productId],
+          variant = product.variants[options.variantId],
+          size = variant.sizes[options.key];
 
-      var currentParrentIndex = tempData.findIndex(function (el, i) {
-        return (el.title == parentTitle);
-      });
+      product.count += options.count; 
+      product.value += options.value;
 
-      tempData[currentParrentIndex].count += count; 
-      tempData[currentParrentIndex].value += value;
-      
-      this.setState({data: tempData});
+      size.count += options.count;
+      size.value += options.value;
 
-      console.log(this.state.data);
-
+      this.setState({data: currentData});
     },
     componentDidMount: function () {
       this.loadData();
@@ -65,7 +70,7 @@
         return prev + current.value;
       }, 0);
       var items = this.props.data.map(function (item, i) {
-        return <SidebarItem url={'#/product/' + i} title={item.title} value={item.value} count={item.count} />
+        return <SidebarItem url={'#/product/' + i} title={item.title} key={i} value={item.value} count={item.count} />
       });
       return (
         <div className="sidebar">
@@ -101,8 +106,8 @@
   var Content = React.createClass({
     render: function () {
       var _this = this;
-      var products = this.props.data.map(function (product) {
-        return <Product sizeCallback={_this.props.sizeCallback} title={product.title} variants={product.variants} />
+      var products = this.props.data.map(function (product, i) {
+        return <Product sizeCallback={_this.props.sizeCallback} key={i} title={product.title} variants={product.variants} />
       });
       return (
         <div className="content">
@@ -115,11 +120,11 @@
   var Product = React.createClass({
     render: function () {
       var _this = this;
-      var variants = this.props.variants.map(function (variant) {
-        return <Variant title={variant.title} sizes={variant.sizes} parentTitle={_this.props.title} sizeCallback={_this.props.sizeCallback} />
+      var variants = this.props.variants.map(function (variant, i) {
+        return <Variant title={variant.title} sizes={variant.sizes} key={i} productId={_this.props.key} parentTitle={_this.props.title} sizeCallback={_this.props.sizeCallback} />
       });
-      var overallItems = this.props.variants[0].sizes.map(function (size) {
-        return <ProductOverallItem title={size.title} />
+      var overallItems = this.props.variants[0].sizes.map(function (size, i) {
+        return <ProductOverallItem title={size.title} key={i} variants={_this.props.variants} productId={_this.props.key} />
       });
       return (
         <div className="product">
@@ -139,11 +144,19 @@
   });
 
   var ProductOverallItem = React.createClass({
+    getInitialState: function () {
+      return {count: 0}
+    },
     render: function () {
+      var _this = this;
       return (
         <div className="product__overall-item">
           <div className="product__overall-item-title">{this.props.title}</div>
-          <div className="product__overall-item-count">шт</div>
+          <div className="product__overall-item-count">
+            {this.props.variants.reduce(function (prev, next) {
+              return prev + next.sizes[_this.props.key].count;
+            }, 0)}
+          </div>
         </div>
       );
     }
@@ -152,8 +165,8 @@
   var Variant = React.createClass({
     render: function () {
       var _this = this;
-      var sizes = this.props.sizes.map(function (size) {
-        return <VariantSize title={size.title} price={size.price} active={size.active} parentTitle={_this.props.parentTitle} sizeCallback={_this.props.sizeCallback} />
+      var sizes = this.props.sizes.map(function (size, i) {
+        return <VariantSize title={size.title} price={size.price} key={i} variantId={_this.props.key} productId={_this.props.productId} active={size.active} parentTitle={_this.props.parentTitle} sizeCallback={_this.props.sizeCallback} />
       });
       return (
         <div className="variant">
@@ -173,12 +186,27 @@
         value: 0
       };
     },
+    /*
+      options.size - конкретный комплект расцветки
+      options.count - diff количества 
+      options.value - diff стоимости
+      options.productId - id продукта
+      options.variantId - id варианта
+      options.key - id варианта
+     */
     changeValue: function (e) {
       this.setState({
         count: e.target.value,
         value: e.target.value * this.props.price
       });
-      this.props.sizeCallback(this, e.target.value, e.target.value * this.props.price);
+      this.props.sizeCallback({
+        size: this, 
+        count: e.target.value,
+        value: e.target.value * this.props.price,
+        productId: this.props.productId,
+        variantId: this.props.variantId,
+        key: this.props.key
+      });
     },
     plusValue: function () {
       var count = this.state.count + 1;
@@ -187,7 +215,14 @@
         count: count,
         value: value
       });
-      this.props.sizeCallback(this, 1, this.props.price);
+      this.props.sizeCallback({
+        size: this, 
+        count: 1,
+        value: this.props.price,
+        productId: this.props.productId,
+        variantId: this.props.variantId,
+        key: this.props.key
+      });
     },
     minusValue: function () {
       var count = (this.state.count === 0) ? 0 : this.state.count - 1;
@@ -196,7 +231,14 @@
         count: count,
         value: value
       });
-      this.props.sizeCallback(this, (this.state.count === 0) ? 0: -1, (this.state.count === 0) ? 0 : -this.props.price);
+      this.props.sizeCallback({
+        size: this, 
+        count: (this.state.count === 0) ? 0: -1,
+        value: (this.state.count === 0) ? 0 : -this.props.price,
+        productId: this.props.productId,
+        variantId: this.props.variantId,
+        key: this.props.key
+      });
     },
     render: function () {
       return (
