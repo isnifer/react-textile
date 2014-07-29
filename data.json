@@ -7,152 +7,204 @@
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Морской бриз",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Летучий голландец",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Вилли Вонка",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Воздушная радость",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             }
-        ]
+        ],
+        "value": 0,
+        "count": 0
     },
     {
         "title": "Бязь «Добрые традиции»",
@@ -162,152 +214,204 @@
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Морской бриз",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Летучий голландец",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Вилли Вонка",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Воздушная радость",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             }
-        ]
+        ],
+        "value": 0,
+        "count": 0
     },
     {
         "title": "Поплин «Love&Live»",
@@ -317,152 +421,204 @@
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Морской бриз",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Летучий голландец",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Вилли Вонка",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Воздушная радость",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             }
-        ]
+        ],
+        "value": 0,
+        "count": 0
     },
     {
         "title": "Сатин «Коттон»",
@@ -472,152 +628,204 @@
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Морской бриз",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Летучий голландец",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Вилли Вонка",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Воздушная радость",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             }
-        ]
+        ],
+        "value": 0,
+        "count": 0
     },
     {
         "title": "Перкаль «КартБланш»",
@@ -627,151 +835,203 @@
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Морской бриз",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Летучий голландец",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Вилли Вонка",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             },
             {
-                "title": "Воздушная радость",
+                "title": "Ландыши",
                 "sizes": [
                     {
                         "title": "1.5",
-                        "value": 640,
-                        "active": true
+                        "price": 640,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2.0",
-                        "value": 720,
-                        "active": true
+                        "price": 720,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "2сп. с евро",
-                        "value": 890,
-                        "active": true
+                        "price": 890,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Евро",
-                        "value": 1030,
-                        "active": false
+                        "price": 1030,
+                        "active": false,
+                        "value": 0,
+                        "count": 0
                     },
                     {
                         "title": "Семейный",
-                        "value": 1370,
-                        "active": true
+                        "price": 1370,
+                        "active": true,
+                        "value": 0,
+                        "count": 0
                     }
                 ]
             }
-        ]
+        ],
+        "value": 0,
+        "count": 0
     }
 ]

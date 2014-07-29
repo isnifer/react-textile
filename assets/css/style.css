@@ -304,6 +304,10 @@ body
     margin-bottom: 5px;
     padding: 5px 0;
 }
+.sidebar__choose
+{
+    font-size: .6666666666666666em;
+}
 .sidebar__all
 {
     font-size: 1.4285714285714286em;
@@ -337,7 +341,34 @@ body
     font-size: 2.2em;
     font-weight: 700;
 
+    float: left;
+
+    width: 280px;
+
     color: #333;
+}
+.product__overall-title
+{
+    margin-bottom: 10px;
+}
+.product__overall-item
+{
+    float: left;
+
+    width: 100px;
+
+    text-align: center;
+}
+.product__overall-item-title
+{
+    margin-bottom: 10px;
+}
+.product__overall-item-count
+{
+    width: 40px;
+    margin: 0 auto;
+
+    background: #fff;
 }
 /* Одна из рацветок продукта */
 .variant
@@ -352,6 +383,8 @@ body
 .variant__title
 {
     font-size: 1.5em;
+
+    margin-bottom: 20px;
 
     color: #222;
 }
