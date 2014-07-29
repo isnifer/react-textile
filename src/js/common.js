@@ -201,8 +201,8 @@
       });
       this.props.sizeCallback({
         size: this, 
-        count: e.target.value,
-        value: e.target.value * this.props.price,
+        count: e.target.value - this.state.count,
+        value: (e.target.value - this.state.count) * this.props.price,
         productId: this.props.productId,
         variantId: this.props.variantId,
         key: this.props.key
@@ -246,9 +246,9 @@
           <p className="size__title">{this.props.title}</p>
           <p className="size__price">{this.props.price}.-</p>
           <p className="size__counter g-clf">
-            <i className="size__changer glyphicon glyphicon-minus" onClick={this.minusValue} />
+            <i className="size__changer glyphicon glyphicon-minus" onClick={(this.props.active) ? this.minusValue : false} />
             <input type="text" className="size__input" maxLength="4" value={this.state.count} disabled={!this.props.active} onChange={this.changeValue} /> 
-            <i className="size__changer glyphicon glyphicon-plus" onClick={this.plusValue} />
+            <i className="size__changer glyphicon glyphicon-plus" onClick={(this.props.active) ? this.plusValue : false} />
           </p>
           <p className="size__value">{this.state.value}.-</p>
         </div>
