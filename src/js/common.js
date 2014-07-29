@@ -129,19 +129,23 @@
     changeValue: function (e) {
       this.setState({count: e.target.value});
     },
+    plusValue: function () {
+      this.setState({count: this.state.count += 1});
+    },
+    minusValue: function () {
+      this.setState({count: (this.state.count === 0) ? 0 : this.state.count -= 1});
+    },
     render: function () {
       return (
         <div className={(this.props.active) ? 'size' : 'size size_state_inactive'}>
-          <p>{this.props.title}</p>
-          <p>{this.props.value}.-</p>
-          <div className="size__counter">
-            <i className="size__changer size__changer-minus" />
-            <input type="text" className="size__input" value={this.state.count} disabled={!this.props.active} onChange={this.changeValue} /> 
-            <i className="size__changer size__changer-plus" />
-          </div>
-          <div className="size__value">
-            {this.state.count * this.props.value}.-
-          </div>
+          <p className="size__title">{this.props.title}</p>
+          <p className="size__price">{this.props.value}.-</p>
+          <p className="size__counter g-clf">
+            <i className="size__changer glyphicon glyphicon-minus" onClick={this.minusValue} />
+            <input type="text" className="size__input" maxlength="4" value={this.state.count} disabled={!this.props.active} onChange={this.changeValue} /> 
+            <i className="size__changer glyphicon glyphicon-plus" onClick={this.plusValue} />
+          </p>
+          <p className="size__value">{this.state.count * this.props.value}.-</p>
         </div>
       );
     }

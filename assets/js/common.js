@@ -129,19 +129,23 @@
     changeValue: function (e) {
       this.setState({count: e.target.value});
     },
+    plusValue: function () {
+      this.setState({count: this.state.count += 1});
+    },
+    minusValue: function () {
+      this.setState({count: (this.state.count === 0) ? 0 : this.state.count -= 1});
+    },
     render: function () {
       return (
         React.DOM.div({className: (this.props.active) ? 'size' : 'size size_state_inactive'}, 
-          React.DOM.p(null, this.props.title), 
-          React.DOM.p(null, this.props.value, ".-"), 
-          React.DOM.div({className: "size__counter"}, 
-            React.DOM.i({className: "size__changer size__changer-minus"}), 
-            React.DOM.input({type: "text", className: "size__input", value: this.state.count, disabled: !this.props.active, onChange: this.changeValue}), 
-            React.DOM.i({className: "size__changer size__changer-plus"})
+          React.DOM.p({className: "size__title"}, this.props.title), 
+          React.DOM.p({className: "size__price"}, this.props.value, ".-"), 
+          React.DOM.p({className: "size__counter g-clf"}, 
+            React.DOM.i({className: "size__changer glyphicon glyphicon-minus", onClick: this.minusValue}), 
+            React.DOM.input({type: "text", className: "size__input", maxlength: "4", value: this.state.count, disabled: !this.props.active, onChange: this.changeValue}), 
+            React.DOM.i({className: "size__changer glyphicon glyphicon-plus", onClick: this.plusValue})
           ), 
-          React.DOM.div({className: "size__value"}, 
-            this.state.count * this.props.value, ".-"
-          )
+          React.DOM.p({className: "size__value"}, this.state.count * this.props.value, ".-")
         )
       );
     }

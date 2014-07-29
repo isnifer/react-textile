@@ -325,42 +325,91 @@ body
 .product
 {
     margin-bottom: 50px;
-
-    background: #ddd;
 }
 .product__stat
 {
     padding: 10px;
+
+    background: #ddd;
 }
 .product__title
 {
-    font-size: 1.5em;
+    font-size: 2.2em;
+    font-weight: 700;
 
     color: #333;
 }
 /* Одна из рацветок продукта */
 .variant
 {
-    margin-bottom: 5px;
-    padding: 20px;
-
-    background: #808080;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+}
+.variant:hover
+{
+    background: #c9bfbf;
 }
 .variant__title
 {
-    font-size: 1.3em;
-    font-weight: 700;
+    font-size: 1.5em;
 
-    color: #fff;
+    color: #222;
 }
 /* Размер */
 .size
 {
     float: left;
+
+    width: 20%;
+
+    text-align: center;
 }
 .size_state_inactive
 {
     opacity: .3;
+}
+.size__title
+{
+    font-weight: 700;
+}
+.size__input
+{
+    max-width: 100%;
+
+    text-align: center;
+}
+.size__changer
+{
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+    padding: 6px 8px;
+
+    cursor: pointer;
+}
+.size__changer.glyphicon-minus
+{
+    color: #d6516a;
+}
+.size__changer.glyphicon-minus:hover
+{
+    color: #ee113a;
+}
+.size__changer.glyphicon-plus
+{
+    color: #2dc658;
+}
+.size__changer.glyphicon-plus:hover
+{
+    color: #0ac105;
+}
+.size__input
+{
+    display: inline-block;
+
+    width: 50px;
+    height: 30px;
 }
 /* Подвал */
 /* Форма */

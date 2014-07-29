@@ -1,5 +1,38 @@
 .size
   float left
+  width 20%
+  text-align center
 
   &_state_inactive
     opacity .3
+
+  &__title
+    font-weight 700
+
+  &__input
+    max-width 100%
+    text-align center
+
+  &__changer
+    display inline-block
+    width 30px
+    height 30px
+    padding 6px 8px
+    cursor pointer
+
+    &.glyphicon-minus
+      color #d6516a
+      
+      &:hover
+        color #ee113a
+
+    &.glyphicon-plus
+      color #2dc658
+
+      &:hover
+        color #0ac105
+
+  &__input
+    width 50px
+    height 30px
+    display inline-block
